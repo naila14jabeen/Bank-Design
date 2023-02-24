@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&family=Cabin:wght@100;200;300;400;500;600;800;900');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('/fonts/FontsFree-Net-gilory.ttf') format('ttf')
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    /* text-decoration: none; */
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.07);
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo img {
+    width: 78px;
+    height: 61px;
+}
+
+.logo-heading h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #15804F;
+}
+
+.logo-heading span {
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 32px;
+}
+
+.navigation ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.navigation ul li:first-child a {
+    color: #15804F;
+    font-weight: 500;
+}
+
+.vibrant-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.vibrant-main {
+    display: flex;
+    gap: 160px;
+
+    /* position: relative; */
+}
+
+.vibrant-heading h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.8);
+    width: 564px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.vibrant-heading span {
+    color: #15804F;
+}
+
+.vibrant-heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    max-width: 617px;
+}
+
+.vibrant-img {
+    margin-top: 78px;
+}
+
+.vibrant-btn {
+    background: #15804F;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 50px;
+    margin-top: 50px;
+}
+
+
+.swiper-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #F9F9F9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.swiper-section img {
+    width: 163px;
+    height: 48px;
+}
+
+.swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsfeed-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.newsfeed-heading h2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #313B4C;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.newsfeed-heading span {
+    color: #15804F;
+}
+
+.newsfeed-divs {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsfeed-inner img {
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.newsfeed-span {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 11px;
+}
+
+.newsfeed-head {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+    color: #313B4C;
+    margin-bottom: 20px;
+}
+
+.newsfeed-a {
+    color: #313B4C;
+}
+
+.newsfeed-para {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(34, 34, 34, 0.8);
+    margin-bottom: 60px;
+}
+
+.newsfeed-para span {
+    color: #15804F;
+}
+
+button {
+    background: #15804F;
+    border-radius: 5px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 50px;
+    margin-bottom: 60px;
+
+}
+
+.projects-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.projects-heading h2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #313B4C;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projects-heading span {
+    color: #15804F;
+}
+
+.projects-inner {
+    display: flex;
+    gap: 60px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* h2 .projects-head {
+    width: 350px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #313B4C;
+} */
+
+.projects-left h2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #313B4C;
+    width: 350px;
+}
+
+.projects-left h2:nth-child(2) {
+    color: #15804F;
+}
+
+.projects-left p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+    color: rgba(34, 34, 34, 0.8);
+    margin-top: 20px;
+    width: 450px;
+}
+
+
+.projects-right img {
+    margin-bottom: 70px;
+}
+
+.Directors-section {
+
+    background: #F9F9F9;
+}
+
+.directors-sec-main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 60px
+}
+
+.Directors-heading h2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #313B4C;
+    text-align: center;
+    background: #F9F9F9;
+    margin-bottom: 60px;
+}
+
+.Directors-heading span {
+    color: #15804F;
+}
+
+.Directors-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.Directors-div {
+    flex: 1 1 370px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    max-width: 370px;
+    /* margin-top: 60px; */
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* .Directors-div img {
+    margin-bottom: 20px;
+} */
+
+.Directors-div h3 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* text-align: center; */
+    color: #000000;
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+
+.Directors-div p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    /* text-align: center; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(21, 20, 57, 0.4);
+    width: 292px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    /* padding-top: 23px; */
+    margin: 0 auto;
+
+}
+
+.Directors-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.Directors-icons i {
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+/* .map-section{
+    background: #F5F5F5;
+} */
+.map-section-main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-section {
+    background: linear-gradient(91.11deg, #15804F 0%, #3164CF 100%);
+}
+
+.footer-main {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 46px; */
+    padding-left: 172px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 77px;
+}
+
+.footer-div-first p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    max-width: 213px;
+}
+
+.footer-div-first i {
+    color: #FFFFFF;
+    width: 20px;
+    /* gap: 16px; */
+    padding-top: 40px;
+
+}
+
+.div-second {
+    margin-top: 87px;
+}
+
+.div-second h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.div-second a {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 25px;
+    /* width: 69px; */
+}
+
+input {
+    background: #3975B3;
+    padding: 15px 90px 15px;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 21px;
+
+}
+
+::placeholder {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+
+.div-second p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 329px;
+
+}
+
+.last-div-footer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-top: 21px;
+    padding-bottom: 20px;
+
+}
